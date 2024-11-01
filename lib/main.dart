@@ -1,11 +1,14 @@
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+//Enttry point for the backend code.
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
   home: HomeApp(),
 ));
 
+
+//Homepage class
 class HomeApp extends StatefulWidget {
   @override
   _HomeAppState createState() => _HomeAppState();
